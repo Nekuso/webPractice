@@ -115,6 +115,8 @@ $_SESSION["sales"] = [
 
 <body style="display: flex; width: 100%; justify-content: center; align-items: flex-start; gap: 1rem; padding: 2rem;">
     <?php
+
+    // Loops through the sales array
     foreach ($_SESSION["sales"] as $sale) {
         echo ('
             <div class="card" style="width: 18rem;">
