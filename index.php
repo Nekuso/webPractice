@@ -119,10 +119,10 @@ $_SESSION["sales"] = [
     // Loops through the sales array
     foreach ($_SESSION["sales"] as $sale) {
         echo ('
-            <div class="card" style="width: 18rem;">
+            <div class="card bg-dark" style="width: 18rem;">
                 <div class="card-body">
-                    <h5 class="card-title">' . $sale->buyer . '</h5>
-                    <h6>Products bought:</h6>
+                    <h5 class="card-title text-white">' . $sale->buyer . '</h5>
+                    <h6 class="text-white">Products bought:</h6>
                     <ul class="list-group">
             ');
 
