@@ -122,7 +122,6 @@ $_SESSION["sales"] = [
                     <h5 class="card-title">' . $sale->buyer . '</h5>
                     <h6>Products bought:</h6>
                     <ul class="list-group">
-
             ');
 
         foreach ($sale->products as $product) {
@@ -133,7 +132,7 @@ $_SESSION["sales"] = [
                     </div>
                 </li>');
         }
-        
+
         echo ('</ul>
                     </div>
             </div>
